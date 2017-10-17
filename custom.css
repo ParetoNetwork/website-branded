@@ -1,0 +1,33 @@
+.site-moto > h1 {
+	    font-weight: lighter;
+}
+
+.sign-up-form__title {
+		font-size: 25px;
+}
+
+.team-members p {
+	font-weight: lighter;
+	color: black;
+}
+
+.header .whitepaper {
+    line-height: 32px;
+}
+
+@media (max-width: 767px) {
+    .header .whitepaper {
+        line-height: 24px;
+    }
+}
+
+
+
+.sign-up-form input.mce_inline_error {
+	border: 1px solid #ca5151;
+	background-color: #fcd9d9!important;
+}
+
+#mce-responses {
+	margin-top: 8px;
+}
