@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Header';
+  src: url('../fonts/font-header.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/font-header.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/font-header.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/font-header.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/font-header.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Body';
+  src: url('../fonts/font-body.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/font-body.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/font-body.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/font-body.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/font-body.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 .site-moto > h1 {
 	    font-weight: lighter;
 }
@@ -32,13 +50,25 @@
     }
 }
 
-
+.sign-up-form {
+  font-family: 'Body';
+}
 
 .sign-up-form input.mce_inline_error {
 	border: 1px solid #ca5151;
 	background-color: #fcd9d9!important;
 }
 
+
 #mce-responses {
 	margin-top: 8px;
+  font-family: 'Body';
+}
+
+.font-header {
+  font-family: 'Header';
+}
+
+.font-body {
+  font-family: 'Body';
 }
