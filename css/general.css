@@ -4640,9 +4640,9 @@ body {
     background: -webkit-linear-gradient(top, #54ae5c 0%, #679ab4 100%);
     background: -o-linear-gradient(top, #54ae5c 0%, #679ab4 100%);
     background: linear-gradient(to bottom, #54ae5c 0%, #679ab4 100%);
-    padding: 150px 0 30px;
+    padding: 110px 0 30px;
     position: relative;
-    z-index: 1
+    z-index: 1;
 }
 @media (max-width: 991px) {
     .offer .content {
@@ -4659,7 +4659,7 @@ body {
     content: '';
     width: 619px;
     height: 575px;
-    background-image: url(../images/star.svg);
+    /*background-image: url(../images/star.svg);*/
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -4683,7 +4683,7 @@ body {
     }
 }
 .site-moto img {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     display: block
 }
 @media (max-width: 991px) {
@@ -6180,4 +6180,3 @@ body {
         transform: scale3d(1, 1, 1)
     }
 }
-/*# sourceMappingURL=general.css.map */
